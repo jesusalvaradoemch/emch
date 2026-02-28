@@ -1,5 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from streamlit_gsheets import GSheetsConnection
+import pandas as pd
 
 # ==================================================
 # CONFIGURACIÓN GENERAL
