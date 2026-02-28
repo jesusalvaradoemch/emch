@@ -51,7 +51,7 @@ def Home():
     - Resolución de problemas reales
     """)
 
-    silabo_url = "https://github.com/jesusalvarado2023/emch2025/raw/refs/heads/main/Clases/SILABO.pdf"
+    silabo_url = "https://github.com/jesusalvaradoemch/emch/raw/refs/heads/main/Clases/SILABO.pdf"
     st.markdown(f"[⬇️ Descargar Sílabo Oficial]({silabo_url})")
 
     st.markdown("---")
