@@ -4,6 +4,7 @@ import streamlit.components.v1 as components
 # ==================================================
 # CONFIGURACIÓN GENERAL
 # ==================================================
+
 st.set_page_config(
     page_title="Química General 2026",
     page_icon="🧪",
