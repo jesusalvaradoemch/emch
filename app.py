@@ -73,19 +73,19 @@ def semana1():
 
     st.subheader("🧪 Actividad")
     st.write("""
-    1. Resolver 10 configuraciones electrónicas.
-    2. Determinar los 4 números cuánticos del último electrón.
-    3. Clasificar isótopos dados.
+    1. En una tabla, reflexiona y redacta 5 cambios físicos y 5 cambios químicos que identificas en tu día a día en la EMCH.
+    2. Crea tu cuenta de GITHUB con tu correo institucional (EMCH) y tu cuenta en STREAMLIT (de acuerdo al video adjunto)
+    3. Guarda en un PDF los puntos 1 y 2 (enlaces de github y de streamlit, por ejemplo: github.com/jesusalvaradoemch y https://emch26.streamlit.app/, respectivamente.) y adjúntalo al FORMULARIO.
+    IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles.
     """)
-
-    st.markdown("### Simulación interactiva")
-    phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
-    components.iframe(phet, width=900, height=600)
 
     # LINK AL FORMULARIO
     form_semana1 = "https://forms.gle/HyMZBGY7ht9j7WpQ8" #"https://docs.google.com/forms/d/e/FORM_ID_SEMANA1/viewform?embedded=true"
     insertar_formulario(form_semana1)
-
+    
+    st.markdown("### Complementario: Simulación interactiva")
+    phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
+    components.iframe(phet, width=900, height=600)
 
 # ==================================================
 # SEMANA 2
