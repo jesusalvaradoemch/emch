@@ -75,7 +75,7 @@ def semana1():
     st.write("""
     1. En una tabla, reflexiona y redacta 5 cambios físicos y 5 cambios químicos que identificas en tu día a día en la EMCH.
     2. Crea tu cuenta de GITHUB con tu correo institucional (EMCH) y tu cuenta en STREAMLIT (de acuerdo al video adjunto)
-    3. Guarda en un PDF los puntos 1 y 2 (enlaces de github y de streamlit, por ejemplo: github.com/jesusalvaradoemch y https://emch26.streamlit.app/, respectivamente.) y adjúntalo al FORMULARIO.
+    3. Guarda en un PDF los puntos 1 y 2 (enlaces de github y de streamlit, por ejemplo: https://github.com/jesusalvaradoemch y https://emch26.streamlit.app/, respectivamente.) y adjúntalo al FORMULARIO.
     IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles.
     """)
 
