@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from streamlit_gsheets import GSheetsConnection
-import pandas as pd
+#from streamlit_gsheets import GSheetsConnection
+#import pandas as pd
 
 # ==================================================
 # CONFIGURACIÓN GENERAL
@@ -58,6 +58,7 @@ def Home():
 
     st.markdown("---")
     st.success("⚠️ Cada semana incluye actividad obligatoria con entrega mediante formulario.")
+    st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
 
 
 # ==================================================
@@ -82,8 +83,7 @@ def semana1():
     """)
 
     # LINK AL FORMULARIO
-    form_semana1 = "https://forms.gle/HyMZBGY7ht9j7WpQ8" #"https://docs.google.com/forms/d/e/FORM_ID_SEMANA1/viewform?embedded=true"
-    insertar_formulario(form_semana1)
+    st.markdown("FORMULARIO: (https://forms.gle/HyMZBGY7ht9j7WpQ8)")
     
     st.markdown("### Complementario: Simulación interactiva")
     phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
