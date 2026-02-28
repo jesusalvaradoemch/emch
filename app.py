@@ -60,13 +60,33 @@ def Home():
     st.success("⚠️ Cada semana incluye actividad obligatoria con entrega mediante formulario.")
     st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
 
-
 # ==================================================
 # SEMANA 1
 # ==================================================
 
 def semana1():
-    st.header("Semana 1: Estructura Atómica y Números Cuánticos", divider="rainbow")
+    st.header("Semana 1: Presentación del Curso y Materia", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+    st.write("Comprender la estructura del átomo y aplicar correctamente los números cuánticos.")
+
+    diapositivas = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
+    components.iframe(diapositivas, width=900, height=500)
+    
+    st.info("Construye átomos")
+    phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
+    st.components.v1.iframe(phet1, width=800, height=600, scrolling=False)
+    
+    st.info("Estados de la materia")
+    phet2 = "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html"
+    st.components.v1.iframe(phet2, width=800, height=600, scrolling=False)
+
+# ==================================================
+# SEMANA 2
+# ==================================================
+
+def semana2():
+    st.header("Semana 2: Estructura Atómica y Números Cuánticos", divider="rainbow")
 
     st.subheader("🎯 Objetivo")
     st.write("Comprender la estructura del átomo y aplicar correctamente los números cuánticos.")
@@ -90,11 +110,11 @@ def semana1():
     components.iframe(phet, width=900, height=600)
 
 # ==================================================
-# SEMANA 2
+# SEMANA 3
 # ==================================================
 
-def semana2():
-    st.header("Semana 2: Configuración Electrónica y Tabla Periódica", divider="rainbow")
+def semana3():
+    st.header("Semana 3: Configuración Electrónica y Tabla Periódica", divider="rainbow")
 
     st.subheader("🎯 Objetivo")
     st.write("Relacionar configuración electrónica con propiedades periódicas.")
@@ -117,23 +137,122 @@ def semana2():
 
 
 # ==================================================
-# SEMANA 3
+# SEMANA 4
 # ==================================================
 
-def semana3():
-    st.header("Semana 3: Unidades Químicas de Masa", divider="rainbow")
+def semana4():
+    st.header("Semana 4: Unidades Químicas de Masa", divider="rainbow")
 
     st.subheader("🎯 Objetivo")
     st.write("Aplicar correctamente mol, masa molar y número de Avogadro.")
 
     st.subheader("🧪 Actividad")
-    st.write("""
-    - 20 ejercicios de conversión mol ↔ gramos.
-    - Problemas aplicados a logística militar.
-    """)
+    #st.write("""
+    #- 20 ejercicios de conversión mol ↔ gramos.
+    #- Problemas aplicados a logística militar.
+    #""")
 
     #form_semana3 = "https://docs.google.com/forms/d/e/FORM_ID_SEMANA3/viewform?embedded=true"
     #insertar_formulario(form_semana3)
+
+# ==================================================
+# SEMANA 5
+# ==================================================
+
+def semana5():
+    st.header("Semana 5: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 6
+# ==================================================
+
+def semana6():
+    st.header("Semana 6: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 7
+# ==================================================
+
+def semana7():
+    st.header("Semana 7: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+    
+# ==================================================
+# SEMANA 8
+# ==================================================
+
+def semana8():
+    st.header("Semana 8: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 9
+# ==================================================
+
+def semana9():
+    st.header("Semana 9: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 10
+# ==================================================
+
+def semana10():
+    st.header("Semana 10: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 11
+# ==================================================
+
+def semana11():
+    st.header("Semana 11: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 12
+# ==================================================
+
+def semana12():
+    st.header("Semana 12: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 13
+# ==================================================
+
+def semana13():
+    st.header("Semana 13: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 14
+# ==================================================
+
+def semana14():
+    st.header("Semana 14: ", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
+
+# ==================================================
+# SEMANA 15
+# ==================================================
+
+def semana15():
+    st.header("Semana 15: EXAMEN FINAL", divider="rainbow")
+
+    st.subheader("🎯 Objetivo")
 
 
 # ==================================================
@@ -145,6 +264,18 @@ pages = {
     "Semana 1": semana1,
     "Semana 2": semana2,
     "Semana 3": semana3,
+    "Semana 4": semana4,
+    "Semana 5": semana5,
+    "Semana 6": semana6,
+    "Semana 7": semana7,
+    "Semana 8": semana8,
+    "Semana 9": semana9,
+    "Semana 10": semana10,
+    "Semana 11": semana11,
+    "Semana 12": semana12,
+    "Semana 13": semana13,
+    "Semana 14": semana14,
+    "Semana 15": semana15,
 }
 
 selected = st.sidebar.selectbox("📚 Temario", pages.keys())
