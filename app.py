@@ -70,7 +70,8 @@ def semana1():
     st.subheader("🎯 Objetivo")
     st.write("Comprender la estructura del átomo y aplicar correctamente los números cuánticos.")
 
-    diapositivas = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
+    diapositivas = "https://docs.google.com/presentation/d/1BgfShN-ydYaG7XEoKnM4uWa3aeIMRwPm/preview" 
+    #"https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     components.iframe(diapositivas, width=900, height=500)
     
     st.info("Construye átomos")
