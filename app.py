@@ -81,6 +81,9 @@ def semana1():
     3. Guarda en un PDF los puntos 1 y 2 (enlaces de github y de streamlit, por ejemplo: https://github.com/jesusalvaradoemch y https://emch26.streamlit.app/, respectivamente.) y adjúntalo al FORMULARIO.
     IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles.
     """)
+
+    # LINK AL FORMULARIO
+    st.success("FORMULARIO: (https://forms.gle/HyMZBGY7ht9j7WpQ8)")
     
     st.info("Construye átomos")
     phet1 = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
@@ -102,9 +105,6 @@ def semana2():
 
     diapositivas = "https://docs.google.com/presentation/d/1mrNHsc_6a0d4AQsiWsYsQvvRqqctcFey/preview"
     components.iframe(diapositivas, width=900, height=500)
-
-    # LINK AL FORMULARIO
-    st.markdown("FORMULARIO: (https://forms.gle/HyMZBGY7ht9j7WpQ8)")
     
     st.markdown("### Complementario: Simulación interactiva")
     phet = "https://phet.colorado.edu/sims/html/isotopes-and-atomic-mass/latest/isotopes-and-atomic-mass_all.html"
