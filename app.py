@@ -43,7 +43,7 @@ def Home():
     st.markdown("---")
 
     st.info("CLASE VIRTUAL 10 DE MARZO DEL 2026")
-    st.info("https://meet.google.com/wok-jrhk-tgb")
+    st.warning("https://meet.google.com/wok-jrhk-tgb")
     
     st.write("""
     Bienvenidos al curso de **Química General 2026**.
