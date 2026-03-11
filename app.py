@@ -42,7 +42,7 @@ def Home():
     st.markdown("### Bachillerato en Ciencias Militares | Ciencias y Humanidades")
     st.markdown("---")
 
-    st.info("CLASE VIRTUAL 10 DE MARZO DEL 2026")
+    st.info("CLASE VIRTUAL MIÉRCOLES 11 DE MARZO DEL 2026: 11:50 a 13:20")
     st.warning("https://meet.google.com/wok-jrhk-tgb")
     
     st.write("""
