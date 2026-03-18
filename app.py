@@ -147,7 +147,7 @@ def semana3():
     st.subheader("🧪 Actividad 3")
     st.write("""
     - Crea un aplicativo en STREAMLIT sobre alguno de los temas desarrollados hasta el momento (Estructura atómica, Números cuánticos, Conf Electrónica).
-    - Adjunta el enlace de aplicativo en el EXCEL compartido, por ejemplo: https://numeroscuanticos.streamlit.app/)  
+    - Adjunta el enlace de tu aplicativo en el EXCEL compartido, por ejemplo: https://numeroscuanticos.streamlit.app/)  
     """)
     st.write("https://docs.google.com/spreadsheets/d/1hjKaP1CjNIQaQcrr57NFND807oGjTxDDw3A9BHzkrIA/edit?usp=sharing")
 
