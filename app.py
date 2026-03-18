@@ -146,12 +146,14 @@ def semana3():
 
     st.subheader("🧪 Actividad 3")
     st.write("""
-    - Crea un aplicativo sobre alguno de los temas desarrollados hasta el momento.
-    - .
+    - Crea un aplicativo en STREAMLIT sobre alguno de los temas desarrollados hasta el momento (Estructura atómica, Números cuánticos, Conf Electrónica).
+    - Adjunta el enlace de aplicativo en el EXCEL compartido, por ejemplo: https://numeroscuanticos.streamlit.app/)  
     """)
+    st.write("https://docs.google.com/spreadsheets/d/1hjKaP1CjNIQaQcrr57NFND807oGjTxDDw3A9BHzkrIA/edit?usp=sharing")
 
-    phet = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
-    components.iframe(phet, width=900, height=600)
+
+    #phet = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
+    #components.iframe(phet, width=900, height=600)
 
     #form_semana2 = "https://docs.google.com/forms/d/e/FORM_ID_SEMANA2/viewform?embedded=true"
     #insertar_formulario(form_semana2)
