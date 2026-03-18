@@ -114,6 +114,8 @@ def semana2():
     st.markdown("---")
     
     st.subheader("🧪 Actividad 2")
+    st.write("Recuerda que debes crear tu GITHUB y escribirlo en este EXCEL:")
+    st.write("https://docs.google.com/spreadsheets/d/1hjKaP1CjNIQaQcrr57NFND807oGjTxDDw3A9BHzkrIA/edit?usp=sharing")
     st.write("1. Ingresa a https://numeroscuanticos.streamlit.app/ y resuelve 3 ejercicios")
     st.write("2. Da click en el botón 'VERIFICAR RESPUESTA' y captura la evidencia")
     st.write("3. Súbelo en formato PDF a tu GITHUB, con tu nombre completo en mayúsculas seguido de la palabra actividad2 en minúsculas (no usar espacios, ni guiones)")
@@ -143,11 +145,10 @@ def semana3():
     components.iframe(diapositivas, width=900, height=500)
 
     st.subheader("🧪 Actividad 3")
-    #st.write("""
-    #- Determinar grupo y período de 15 elementos.
-    #- Justificar tendencias periódicas.
-    #- Identificar elementos estratégicos militares.
-    #""")
+    st.write("""
+    - Crea un aplicativo sobre alguno de los temas desarrollados hasta el momento.
+    - .
+    """)
 
     phet = "https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html"
     components.iframe(phet, width=900, height=600)
