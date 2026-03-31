@@ -164,12 +164,17 @@ def semana3():
 # ==================================================
 
 def semana4():
-    st.header("Semana 4: Unidades Químicas de Masa", divider="rainbow")
+    st.header("Semana 4: Tabla Periódica", divider="rainbow")
 
     st.subheader("🎯 Logro esperado")
-    #st.write("Aplicar correctamente mol, masa molar y número de Avogadro.")
+    st.write("Identificar y ubicar un elemento químico en su respectivo bloque, periodo y grupo. Clasificar a los elementos químicos como metal, no metal, semimetal y gas noble.")
 
-    st.subheader("🧪 Actividad 4")
+    diapositivas = "https://docs.google.com/presentation/d/1s4ifYq5QKa9HDtA24ReDQF8cvfvTvAhN/preview"
+    components.iframe(diapositivas, width=900, height=500)
+
+    st.markdown("---")
+
+    #st.subheader("🧪 Actividad 4")
     #st.write("""
     #- 20 ejercicios de conversión mol ↔ gramos.
     #- Problemas aplicados a logística militar.
@@ -183,9 +188,17 @@ def semana4():
 # ==================================================
 
 def semana5():
-    st.header("Semana 5: ", divider="rainbow")
+    st.header("Semana 5: Unidades Químicas de Masa", divider="rainbow")
 
     st.subheader("🎯 Logro esperado")
+    st.write("- Comprender la masa atómica, masa molecular y masa molar. Entender el concepto de mol.")
+    st.write("- Interpretar la formula química.")
+    st.write("- Determinar la composición centesimal en masa de la formula química.")
+
+    diapositivas = "https://docs.google.com/presentation/d/1m6Fu_rY6lOYJEvcSnLD69wVnPdLjty0c/preview"
+    components.iframe(diapositivas, width=900, height=500)
+
+    st.markdown("---")
 
 # ==================================================
 # SEMANA 6
