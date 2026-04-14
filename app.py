@@ -205,18 +205,28 @@ def semana5():
 # ==================================================
 
 def semana6():
-    st.header("Semana 6: ", divider="rainbow")
+    st.header("Semana 6: Reacciones Químicas", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+
+    diapositivas = "https://docs.google.com/presentation/d/11rcn7-xQNHrg8Meuomhezmc6fJtoezTd/preview"
+    components.iframe(diapositivas, width=900, height=500)
+
+    st.markdown("---")
 
 # ==================================================
 # SEMANA 7
 # ==================================================
 
 def semana7():
-    st.header("Semana 7: ", divider="rainbow")
+    st.header("Semana 7: Balance de Ecuaciones Químicas", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+
+    diapositivas = "https://docs.google.com/presentation/d/1Qh3sUrvXPInPL_JCDCAcPB33CQsA4Fng/preview"
+    components.iframe(diapositivas, width=900, height=500)
+
+    st.markdown("---")
     
 # ==================================================
 # SEMANA 8
@@ -297,7 +307,7 @@ def semana15():
 
 pages = {
     "Inicio": Home,
-    "Semana 1": semana1,
+    "Semana 1": Materia,
     "Semana 2": semana2,
     "Semana 3": semana3,
     "Semana 4": semana4,
