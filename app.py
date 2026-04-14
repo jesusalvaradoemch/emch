@@ -307,7 +307,7 @@ def semana15():
 
 pages = {
     "Inicio": Home,
-    "Semana 1: Materia": semsna1,
+    "Semana 1: Materia": semana1,
     "Semana 2: Estructura Atómica": semana2,
     "Semana 3: Configuración Electrónica": semana3,
     "Semana 4: Tabla Periódica": semana4,
