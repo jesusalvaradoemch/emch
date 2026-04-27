@@ -235,8 +235,12 @@ def semana7():
 def semana8():
     st.header("Semana 8: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1aZqfRIV-3Oll94cyXXQng2ST2X0q2Bf6/preview"
+    components.iframe(diapositivas, width=900, height=500)
 
+    st.markdown("---")
+    
 # ==================================================
 # SEMANA 9
 # ==================================================
@@ -244,8 +248,12 @@ def semana8():
 def semana9():
     st.header("Semana 9: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/193Mcn09FAOhaWIN68ewhoStVctY0Dt2U/preview"
+    components.iframe(diapositivas, width=900, height=500)
 
+    st.markdown("---")
+    
 # ==================================================
 # SEMANA 10
 # ==================================================
@@ -315,7 +323,7 @@ pages = {
     "Semana 6: Reacciones Químicas": semana6,
     "Semana 7: Balance de Ecuaciones": semana7,
     "Semana 8: Estequiometría": semana8,
-    "Semana 9": semana9,
+    "Semana 9: Estado Gaseoso": semana9,
     "Semana 10": semana10,
     "Semana 11": semana11,
     "Semana 12": semana12,
