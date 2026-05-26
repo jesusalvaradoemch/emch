@@ -261,8 +261,9 @@ def semana9():
 def semana10():
     st.header("Semana 10: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
-
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1IrM4v2omVuMxYDtDuvb493Kv1fO1RLip/preview"
+    components.iframe(diapositivas, width=900, height=500)
 # ==================================================
 # SEMANA 11
 # ==================================================
@@ -270,8 +271,9 @@ def semana10():
 def semana11():
     st.header("Semana 11: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
-
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1g53z-oMS-TvhygNF1Yvr9UDzPJzRJQ10/preview"
+    components.iframe(diapositivas, width=900, height=500)
 # ==================================================
 # SEMANA 12
 # ==================================================
@@ -279,8 +281,10 @@ def semana11():
 def semana12():
     st.header("Semana 12: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
-
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1_JxUqUOSCs2j8tYod-IPYplgYbntAseN/preview"
+    components.iframe(diapositivas, width=900, height=500)
+    
 # ==================================================
 # SEMANA 13
 # ==================================================
@@ -324,9 +328,9 @@ pages = {
     "Semana 7: Balance de Ecuaciones": semana7,
     "Semana 8: Estequiometría": semana8,
     "Semana 9: Estado Gaseoso": semana9,
-    "Semana 10": semana10,
-    "Semana 11": semana11,
-    "Semana 12": semana12,
+    "Semana 10: Ecuación de los Gases": semana10,
+    "Semana 11: Leyes Empíricas": semana11,
+    "Semana 12: Soluciones": semana12,
     "Semana 13": semana13,
     "Semana 14": semana14,
     "Semana 15": semana15,
