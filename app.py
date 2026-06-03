@@ -336,9 +336,9 @@ pages = {
     "Semana 10: Ecuación de los Gases": semana10,
     "Semana 11: Leyes Empíricas": semana11,
     "Semana 12: Soluciones": semana12,
-    "Semana 13": semana13,
-    "Semana 14": semana14,
-    "Semana 15": semana15,
+    "Semana 13: Unidades de Concentración": semana13,
+    "Semana 14: Medio Ambiente": semana14,
+    "Semana 15: Proyectos": semana15,
 }
 
 selected = st.sidebar.selectbox("📚 Temario", pages.keys())
