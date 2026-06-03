@@ -319,7 +319,7 @@ def semana15():
     #form_semana2 = "https://docs.google.com/forms/d/e/FORM_ID_SEMANA2/viewform?embedded=true"
 
     form_proyecto = "https://forms.gle/ivw4DTKww8sNmpyN7"
-    insertar_formulario(form_semana2)
+    insertar_formulario(form_proyecto)
 
 # ==================================================
 # DICCIONARIO DE PÁGINAS
