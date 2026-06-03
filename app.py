@@ -292,7 +292,9 @@ def semana12():
 def semana13():
     st.header("Semana 13: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1A33kLAgn4xnylQPp88QSFpaSBnViwO_0/preview"
+    components.iframe(diapositivas, width=900, height=500)
 
 # ==================================================
 # SEMANA 14
@@ -301,7 +303,10 @@ def semana13():
 def semana14():
     st.header("Semana 14: ", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+    diapositivas = "https://docs.google.com/presentation/d/1UhSHAY1BaEUMkYl_B864zPZ6baqjkuW7/preview"
+    components.iframe(diapositivas, width=900, height=500)
+
 
 # ==================================================
 # SEMANA 15
