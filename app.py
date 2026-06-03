@@ -57,8 +57,8 @@ def Home():
     st.markdown(f"[⬇️ Descargar Sílabo Oficial]({silabo_url})")
 
     st.markdown("---")
-    st.success("⚠️ Cada semana incluye actividad obligatoria.")
-    st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
+    #st.success("⚠️ Cada semana incluye actividad obligatoria.")
+    #st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
 
 # ==================================================
 # SEMANA 1
@@ -315,8 +315,11 @@ def semana14():
 def semana15():
     st.header("Semana 15: EXAMEN FINAL", divider="rainbow")
 
-    st.subheader("🎯 Logro esperado")
+    #st.subheader("🎯 Logro esperado")
+    #form_semana2 = "https://docs.google.com/forms/d/e/FORM_ID_SEMANA2/viewform?embedded=true"
 
+    form_proyecto = "https://forms.gle/ivw4DTKww8sNmpyN7"
+    insertar_formulario(form_semana2)
 
 # ==================================================
 # DICCIONARIO DE PÁGINAS
