@@ -320,7 +320,7 @@ def semana15():
 
     #form_proyecto = "https://forms.gle/ivw4DTKww8sNmpyN7"
     #insertar_formulario(form_proyecto)
-    st.success("FORMULARIO: (https://forms.gle/ivw4DTKww8sNmpyN7)")
+    st.success("FORMULARIO PARA PRESENTACIÖN DE TRABAJO FINAL: (https://forms.gle/ivw4DTKww8sNmpyN7)")
 
 # ==================================================
 # DICCIONARIO DE PÁGINAS
