@@ -318,8 +318,9 @@ def semana15():
     #st.subheader("🎯 Logro esperado")
     #form_semana2 = "https://docs.google.com/forms/d/e/FORM_ID_SEMANA2/viewform?embedded=true"
 
-    form_proyecto = "https://forms.gle/ivw4DTKww8sNmpyN7"
-    insertar_formulario(form_proyecto)
+    #form_proyecto = "https://forms.gle/ivw4DTKww8sNmpyN7"
+    #insertar_formulario(form_proyecto)
+    st.success("FORMULARIO: (https://forms.gle/ivw4DTKww8sNmpyN7)")
 
 # ==================================================
 # DICCIONARIO DE PÁGINAS
