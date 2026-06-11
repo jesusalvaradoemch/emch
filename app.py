@@ -52,11 +52,18 @@ def Home():
     - Aplicación práctica en ciencias militares
     - Resolución de problemas reales
     """)
-
+  
     silabo_url = "https://github.com/jesusalvaradoemch/emch/raw/refs/heads/main/Clases/SILABO_QUIMICA_1ER_2026.pdf"
     st.markdown(f"[⬇️ Descargar Sílabo Oficial]({silabo_url})")
 
     st.markdown("---")
+
+    repaso_url = "https://github.com/jesusalvaradoemch/emch/blob/main/Clases/REPASO_FINAL_QUIMICA_EMCH26.pdf"
+              #   https://github.com/jesusalvaradoemch/emch/raw/refs/heads/main/Clases/SILABO_QUIMICA_1ER_2026.pdf"
+    st.markdown(f"[⬇️ Descargar Repaso]({repaso_url})")
+
+    st.markdown("---")
+
     #st.success("⚠️ Cada semana incluye actividad obligatoria.")
     #st.text("IMPORTANTE: La actividad se deja el martes y la revisión es el miércoles")
 
@@ -327,7 +334,7 @@ def semana15():
 # ==================================================
 
 pages = {
-    "Inicio": Home,
+    "Inicio y REPASO": Home,
     "Semana 1: Materia": semana1,
     "Semana 2: Estructura Atómica": semana2,
     "Semana 3: Configuración Electrónica": semana3,
